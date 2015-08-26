@@ -13,7 +13,7 @@
         vann:preferredNamespaceUri "https://w3id.org/oer/isced-1997#" ;
         vann:preferredNamespacePrefix "isced-1997" ;
         rdfs:seeAlso <http://www.uis.unesco.org/Library/Documents/isced97-en.pdf> ;
-        skos:hasTopConcept :Level0, :Level1, :Level2, :Level3, :Level4, :Level5, :Level6.
+        skos:hasTopConcept :level0, :level1, :level2, :level3, :level4, :level5, :level6 .
 
 :level0 a skos:Concept;
            skos:topConceptOf :scheme;
