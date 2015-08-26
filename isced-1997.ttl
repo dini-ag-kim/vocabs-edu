@@ -7,7 +7,7 @@
 
 :scheme a skos:ConceptScheme;
         dct:title "ISCED 1997 levels of education"@en ;
-        dct:description "This is a SKOS representation of the ISCED 1997 levels of education. " ;
+        dct:description "This is a SKOS representation of the ISCED 1997 levels of education."@en ;
         dct:publisher <http://lobid.org/organisation/DE-605> ;
         vann:preferredNamespaceUri "https://w3id.org/oer/isced-1997#" ;
         vann:preferredNamespacePrefix "isced-1997" ;
