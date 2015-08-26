@@ -3,7 +3,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :scheme
     a skos:ConceptScheme ;
@@ -12,7 +11,7 @@
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     vann:preferredNamespaceUri "https://w3id.org/oer/isced-2013#" ;
     vann:preferredNamespacePrefix "isced-2013" ;
-    rdfs:seeAlso <http://www.uis.unesco.org/Education/Documents/isced-fields-of-education-training-2013.pdf> ;
+    dct:source <http://www.uis.unesco.org/Education/Documents/isced-fields-of-education-training-2013.pdf> ;
     skos:hasTopConcept   :n00, :n011, :n02, :n03, :n04, :n05,  :n061, :n07, :n08, :n09, :n10 .
 
 
