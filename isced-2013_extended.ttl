@@ -10,12 +10,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :scheme a skos:ConceptScheme ;
-    dct:description "This is a SKOS representation of the ISCED 2013 fields of education and training."@en ;
+    dct:description "This is SKOS vocabulary is an extension of the ISCED 2013 fields of education and training for the purpose of classifying Open Educational Resources (OER) repositories and referatories (i.e. services that enable discovery of OERs)."@en ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     dct:source <http://www.uis.unesco.org/Education/Documents/isced-fields-of-education-training-2013.pdf> ;
-    dct:title "ISCED 2013 fields of education and training"@en ;
-    vann:preferredNamespacePrefix "isced-2013" ;
-    vann:preferredNamespaceUri "https://w3id.org/oer/isced-2013#" ;
+    dct:title "Extension of the ISCED 2013 fields of education and training for classification of online OER services"@en ;
+    vann:preferredNamespacePrefix "isced-2013-ext" ;
+    vann:preferredNamespaceUri "https://w3id.org/isced-extended/2013/" ;
     skos:hasTopConcept :n00,
         :n011,
         :n02,
