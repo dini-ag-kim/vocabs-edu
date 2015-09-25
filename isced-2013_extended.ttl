@@ -17,12 +17,12 @@
     vann:preferredNamespacePrefix "isced-2013-ext" ;
     vann:preferredNamespaceUri "https://w3id.org/isced-extended/2013/" ;
     skos:hasTopConcept :n00,
-        :n011,
+        :n01,
         :n02,
         :n03,
         :n04,
         :n05,
-        :n061,
+        :n06,
         :n07,
         :n08,
         :n09,
@@ -32,6 +32,7 @@
     skos:inScheme :scheme ;
     skos:narrower :n0011,
         :n0021,
+
         :n0031 ;
     skos:notation "00" ;
     skos:prefLabel "Generic programmes and qualifications"@en ;
