@@ -10,12 +10,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :scheme a skos:ConceptScheme ;
-    dct:description "This is SKOS vocabulary is an extension of the ISCED 2013 fields of education and training for the purpose of classifying Open Educational Resources (OER) repositories and referatories (i.e. services that enable discovery of OERs)."@en ;
+    dct:description "The Educational Services Classification (ESC) is a SKOS vocabulary for classifying services that enable access to or discovery of educational resources. It is developed and maintained in the context of the OER Worldmap (OER = Open Educational Resources)."@en ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     dct:source <http://www.uis.unesco.org/Education/Documents/isced-fields-of-education-training-2013.pdf> ;
-    dct:title "Extension of the ISCED 2013 fields of education and training for classification of online OER services"@en ;
-    vann:preferredNamespacePrefix "isced-2013-ext" ;
-    vann:preferredNamespaceUri "https://w3id.org/isced-extended/2013/" ;
+    dct:title "Educational Services Classification"@en ;
+    dct:alternative "ESC";
+    vann:preferredNamespacePrefix "esc" ;
+    vann:preferredNamespaceUri "https://w3id.org/ec/esc/" ;
     skos:hasTopConcept :n00,
         :n01,
         :n02,
