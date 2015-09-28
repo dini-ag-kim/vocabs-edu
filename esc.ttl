@@ -239,55 +239,55 @@
     skos:notation "0232" ;
     skos:prefLabel "Literature and linguistics"@en .
 
-:n231-ase a skos:Concept ;
+:n0231-ase a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-ase" ;
     skos:prefLabel "Language acquisition – American Sign Language"@en .
 
-:n231-zh a skos:Concept ;
+:n0231-zh a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-zh" ;
     skos:prefLabel "Language acquisition – Chinese"@en .
 
-:n231-en a skos:Concept ;
+:n0231-en a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-en" ;
     skos:prefLabel "Language acquisition – English"@en .
 
-:n231-fr a skos:Concept ;
+:n0231-fr a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-fr" ;
     skos:prefLabel "Language acquisition – French"@en .
 
-:n231-ga a skos:Concept ;
+:n0231-ga a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-ga" ;
     skos:prefLabel "Language acquisition – Gaelic"@en .
 
-:n231-de a skos:Concept ;
+:n0231-de a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-de" ;
     skos:prefLabel "Language acquisition – German"@en .
 
-:n231-it a skos:Concept ;
+:n0231-it a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-it" ;
     skos:prefLabel "Language acquisition – Italian"@en .
 
-:n231-es a skos:Concept ;
+:n0231-es a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-es" ;
     skos:prefLabel "Language acquisition – Spanish"@en .
 
-:n231-cy a skos:Concept ;
+:n0231-cy a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-cy" ;
