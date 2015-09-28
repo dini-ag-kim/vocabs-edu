@@ -294,19 +294,19 @@
     skos:prefLabel "Language acquisition – Welsh"@en .
 
 :n0232-en a skos:Concept ;
-    skos:broader :n023 ;
+    skos:broader :n0232 ;
     skos:inScheme :scheme ;
     skos:notation "0232-en" ;
     skos:prefLabel "English literature and linguistics"@en .
 
 :n0232-es a skos:Concept ;
-    skos:broader :n023 ;
+    skos:broader :n0232 ;
     skos:inScheme :scheme ;
     skos:notation "0232-es" ;
     skos:prefLabel "Spanish literature and linguistics"@en .
 
 :n0232-pt a skos:Concept ;
-    skos:broader :n023 ;
+    skos:broader :n0232 ;
     skos:inScheme :scheme ;
     skos:notation "0232-pt" ;
     skos:prefLabel "Portuguese literature and linguistics"@en .
