@@ -40,7 +40,7 @@
     skos:scopeNote "General education programmes and qualifications which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 ‘Generic programmes and qualifications’"@en ;
     skos:topConceptOf :scheme .
 
-:n011 a skos:Concept ;
+:n01 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n0111,
         :n0112,
@@ -86,7 +86,7 @@
     skos:prefLabel "Natural sciences, mathematics and statistics"@en ;
     skos:topConceptOf :scheme .
 
-:n061 a skos:Concept ;
+:n06 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n0611,
         :n0612,
