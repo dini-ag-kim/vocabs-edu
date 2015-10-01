@@ -31,10 +31,9 @@
 
 :n00 a skos:Concept ;
     skos:inScheme :scheme ;
-    skos:narrower :n0011,
-        :n0021,
-
-        :n0031 ;
+    skos:narrower :n001,
+        :n002,
+        :n003 ;
     skos:notation "00" ;
     skos:prefLabel "Generic programmes and qualifications"@en ;
     skos:scopeNote "General education programmes and qualifications which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 ‘Generic programmes and qualifications’"@en ;
@@ -71,7 +70,7 @@
 :n04 a skos:Concept ;
     skos:inScheme :scheme ;
     skos:narrower :n041,
-        :n0421 ;
+        :n042 ;
     skos:notation "04" ;
     skos:prefLabel "Business, administration and law"@en ;
     skos:topConceptOf :scheme .
@@ -128,12 +127,12 @@
     skos:narrower :n101,
         :n102,
         :n103,
-        :n1041 ;
+        :n104 ;
     skos:notation "10" ;
     skos:prefLabel "Services"@en ;
     skos:topConceptOf :scheme .
 
-:n0011 a skos:Concept ;
+:n001 a skos:Concept ;
     skos:broader :n00 ;
     skos:inScheme :scheme ;
     skos:notation "001",
@@ -141,14 +140,14 @@
     skos:prefLabel "Basic programmes and qualifications"@en ;
     skos:scopeNote "Generic programmes which cover a range of subjects, such as languages and literature, social and natural sciences, mathematics, arts and/or physical education, should be classified in 0011 ‘Basic programmes and qualifications’. This should be the case even if there is some concentration on a certain category of subject matter, such as humanities, social sciences, natural sciences, etc., which can occur."@en .
 
-:n0021 a skos:Concept ;
+:n002 a skos:Concept ;
     skos:broader :n00 ;
     skos:inScheme :scheme ;
     skos:notation "002",
         "0021" ;
     skos:prefLabel "Literacy and numeracy"@en .
 
-:n0031 a skos:Concept ;
+:n003 a skos:Concept ;
     skos:broader :n00 ;
     skos:inScheme :scheme ;
     skos:notation "003",
@@ -389,7 +388,7 @@
     skos:notation "0417" ;
     skos:prefLabel "Work skills"@en .
 
-:n0421 a skos:Concept ;
+:n042 a skos:Concept ;
     skos:broader :n04 ;
     skos:inScheme :scheme ;
     skos:notation "042",
@@ -687,7 +686,7 @@
     skos:notation "1032" ;
     skos:prefLabel "Protection of persons and property"@en .
 
-:n1041 a skos:Concept ;
+:n104 a skos:Concept ;
     skos:broader :n10 ;
     skos:inScheme :scheme ;
     skos:notation "104",
