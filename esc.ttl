@@ -155,25 +155,25 @@
     skos:prefLabel "Personal skills and development"@en .
 
 :n0111 a skos:Concept ;
-    skos:broader :n011 ;
+    skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0111" ;
     skos:prefLabel "Education science"@en .
 
 :n0112 a skos:Concept ;
-    skos:broader :n011 ;
+    skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0112" ;
     skos:prefLabel "Training for pre-school teachers"@en .
 
 :n0113 a skos:Concept ;
-    skos:broader :n011 ;
+    skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0113" ;
     skos:prefLabel "Teacher training without subject specialisation"@en .
 
 :n0114 a skos:Concept ;
-    skos:broader :n011 ;
+    skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0114" ;
     skos:prefLabel "Teacher training with subject specialisation"@en .
@@ -450,19 +450,19 @@
     skos:prefLabel "Statistics"@en .
 
 :n0611 a skos:Concept ;
-    skos:broader :n061 ;
+    skos:broader :n06 ;
     skos:inScheme :scheme ;
     skos:notation "0611" ;
     skos:prefLabel "Computer use"@en .
 
 :n0612 a skos:Concept ;
-    skos:broader :n061 ;
+    skos:broader :n06 ;
     skos:inScheme :scheme ;
     skos:notation "0612" ;
     skos:prefLabel "Database and network design and administration"@en .
 
 :n0613 a skos:Concept ;
-    skos:broader :n061 ;
+    skos:broader :n06 ;
     skos:inScheme :scheme ;
     skos:notation "0613" ;
     skos:prefLabel "Software and applications development and analysis"@en .
