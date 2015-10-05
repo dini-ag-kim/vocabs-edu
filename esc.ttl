@@ -228,12 +228,14 @@
 
 :n0231 a skos:Concept ;
     skos:broader :n023 ;
+    skos:narrower :n0231-ase, :n0231-zh, :n0231-en, :n0231-fr, :n0231-ga, :n0231-de, :n0231-it, :n0231-es, :n0231-zy ;
     skos:inScheme :scheme ;
     skos:notation "0231" ;
     skos:prefLabel "Language acquisition"@en .
 
 :n0232 a skos:Concept ;
     skos:broader :n023 ;
+    skos:narrower :n0232-en, :n0232-es, :n0232-pt ;
     skos:inScheme :scheme ;
     skos:notation "0232" ;
     skos:prefLabel "Literature and linguistics"@en .
