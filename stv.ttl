@@ -1,0 +1,34 @@
+@prefix : <https://w3id.org/class/stv/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+
+: a skos:ConceptScheme;
+        dct:title "OER Service type vocabulary"@en ;
+        dct:description "This vocabulary was created and curated within the OER Worldmap project to classify services within the Open Educational Resources (OER) space. Under the term 'OER service' fall online offers by organizations or individuals that somehow help people in finding, assessing, creating or publishing OER, e.g. repositories, referatories, registries etc."@en ;
+        dct:publisher <http://lobid.org/organisation/DE-605> ;
+        vann:preferredNamespaceUri "https://w3id.org/class/stv/" ;
+        vann:preferredNamespacePrefix "stv" ;
+        skos:hasTopConcept :repository, :textbooks, :moocs, :referatory .
+
+:repository a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "Repository"@en .
+
+:textbooks a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "Textbook collection"@en .
+
+:moocs a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "MOOC platform"@en .
+
+:referatory a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "Referatory"@en .
