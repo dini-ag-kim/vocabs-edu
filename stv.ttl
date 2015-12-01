@@ -42,3 +42,9 @@
            skos:inScheme : ;
            skos:prefLabel "Referatory"@en ;
            skos:scopeNote "A service that helps in finding open educational resources (OER) by offering a search interface and ways to filter the results, e.g. by level of education, by language or by subject."@en . 
+
+:tutorial a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "Tutorial" ;
+           skos:scopeNote "A screen recording (screencast), a written document (either online or downloadable), interactive tutorial, or an audio file, where a person gives step by step instructions on activities related to OER, e.g. how to find, assess, create, license or publish OER."@en .
