@@ -13,10 +13,16 @@
         vann:preferredNamespacePrefix "stv" ;
         skos:hasTopConcept :repository, :textbooks, :moocs, :referatory .
 
+:collections a skos:Collection ;
+           skos:prefLabel "Service types that are collections of Open Educational Resources."@en ;
+           skos:member :repository ;
+           skos:member :textbooks ;
+           skos:member :moocs .
+
 :repository a skos:Concept ;
            skos:topConceptOf : ;
            skos:inScheme : ;
-           skos:prefLabel "Repository"@en .
+           skos:prefLabel "OER Repository"@en .
 
 :textbooks a skos:Concept ;
            skos:topConceptOf : ;
