@@ -5,7 +5,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 
-:scheme a skos:ConceptScheme;
+: a skos:ConceptScheme;
         dct:title "ISCED 1997 levels of education"@en ;
         dct:description "This is a SKOS representation of the ISCED 1997 levels of education."@en ;
         dct:publisher <http://lobid.org/organisation/DE-605> ;
@@ -15,50 +15,50 @@
         skos:hasTopConcept :level0, :level1, :level2, :level3, :level4, :level5, :level6 .
 
 :level0 a skos:Concept;
-           skos:topConceptOf :scheme;
-           skos:inScheme :scheme;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
            skos:prefLabel "Pre-Primary Education"@en;
            skos:altLabel "ISCED 1997, Level 0"@en;
            skos:notation "ISCED-1997:0".
 
 :level1 a skos:Concept;
-           skos:topConceptOf :scheme;
-           skos:inScheme :scheme;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
            skos:prefLabel "Primary education or first stage of basic education"@en;
            skos:altLabel "ISCED 1997, Level 1"@en;
            skos:notation "ISCED-1997:1".
 
 :level2 a skos:Concept;
-           skos:topConceptOf :scheme;
-           skos:inScheme :scheme;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
            skos:prefLabel "Lower secondary education or second stage of basic education"@en;
            skos:altLabel "ISCED 1997, Level 2"@en;
            skos:notation "ISCED-1997:2".
 
 :level3 a skos:Concept;
-           skos:topConceptOf :scheme;
-           skos:inScheme :scheme;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
            skos:prefLabel "Upper secondary education"@en;
            skos:altLabel "ISCED 1997, Level 3"@en;
            skos:notation "ISCED-1997:3".
 
 :level4 a skos:Concept;
-           skos:topConceptOf :scheme;
-           skos:inScheme :scheme;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
            skos:prefLabel "Post-secondary non-tertiary education"@en;
            skos:altLabel "ISCED 1997, Level 4"@en;
            skos:notation "ISCED-1997:4".
 
 :level5 a skos:Concept;
-           skos:topConceptOf :scheme;
-           skos:inScheme :scheme;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
            skos:prefLabel "First stage of tertiary education"@en;
            skos:altLabel "ISCED 1997, Level 5"@en;
            skos:notation "ISCED-1997:5".
 
 :level6 a skos:Concept;
-           skos:topConceptOf :scheme;
-           skos:inScheme :scheme;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
            skos:prefLabel "Second stage of tertiary education"@en;
            skos:altLabel "ISCED 1997, Level 6"@en;
            skos:notation "ISCED-1997:6".
