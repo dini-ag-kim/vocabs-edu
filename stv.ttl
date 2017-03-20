@@ -23,7 +23,7 @@
            skos:topConceptOf : ;
            skos:inScheme : ;
            skos:prefLabel "OER Repository"@en ;
-           skos:scopeNote "A service that offers uploading and downloading individuall open educational resources (OER) and assigning some metadata."@en.
+           skos:scopeNote "A service that offers uploading and downloading individual open educational resources (OER) in any medium (textual, audio, visual) and assigning some metadata to enable discovery."@en.
 
 :textbooks a skos:Concept ;
            skos:topConceptOf : ;
