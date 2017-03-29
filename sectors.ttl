@@ -3,12 +3,14 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix vann: <http://purl.org/vocab/vann/> .
 
-<https://oerworldmap.org/vocabs/esv> a skos:ConceptScheme;
+<https://w3id.org/edu/sectors> a skos:ConceptScheme;
         dct:title "Educational Sectors Vocabulary"@en ;
         dct:description "This is a vocabulary for educational sectors as used in the OER World Map (https://oerworldmap.org)."@en ;
         dct:publisher <http://lobid.org/organisation/DE-605> ;
-        vann:preferredNamespaceUri "https://oerworldmap.org/vocabs/esv#" ;
+        dct:issued "2017-03-29" ;
+        vann:preferredNamespaceUri "https://w3id.org/edu/sectors#" ;
         vann:preferredNamespacePrefix "esv" ;
+        dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
         skos:hasTopConcept :earlyChildhood, :school, :higherEd, :tvet, :nonFormal .
 
 :earlyChildhood a skos:Concept;
