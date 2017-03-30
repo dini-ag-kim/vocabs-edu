@@ -15,26 +15,26 @@
 
 :earlyChildhood a skos:Concept;
            skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
-           skos:inScheme <https://oerworldmap.org/vocabs/esv> ;
+           skos:inScheme <https://w3id.org/edu/sectors> ;
            skos:prefLabel "Early Chidlhood Education"@en .
 
 :school a skos:Concept;
           skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
-          skos:inScheme <https://oerworldmap.org/vocabs/esv> ;
+          skos:inScheme <https://w3id.org/edu/sectors> ;
           skos:prefLabel "School"@en .
 
 :higherEd a skos:Concept;
            skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
-           skos:inScheme <https://oerworldmap.org/vocabs/esv> ;
+           skos:inScheme <https://w3id.org/edu/sectors> ;
            skos:prefLabel "Higher Education"@en .
            
 :tvet a skos:Concept;
           skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
-          skos:inScheme <https://oerworldmap.org/vocabs/esv> ;
+          skos:inScheme <https://w3id.org/edu/sectors> ;
           skos:prefLabel "TVET"@en ;
           skos:altLabel "Technical and Vocational Education and Training" .
 
 :nonFormal a skos:Concept;
           skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
-          skos:inScheme <https://oerworldmap.org/vocabs/esv> ;
+          skos:inScheme <https://w3id.org/edu/sectors> ;
           skos:prefLabel "Non-formal & Informal Education"@en .
