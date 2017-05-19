@@ -16,7 +16,7 @@
 :earlyChildhood a skos:Concept;
            skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
            skos:inScheme <https://w3id.org/edu/sectors> ;
-           skos:prefLabel "Early Chidlhood Education"@en .
+           skos:prefLabel "Early Childhood Education"@en .
 
 :school a skos:Concept;
           skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
