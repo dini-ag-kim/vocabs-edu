@@ -16,25 +16,30 @@
 :earlyChildhood a skos:Concept;
            skos:topConceptOf <https://w3id.org/edu/sectors> ;
            skos:inScheme <https://w3id.org/edu/sectors> ;
-           skos:prefLabel "Early Childhood Education"@en .
+           skos:prefLabel "Early Childhood Education"@en, "Frühkindliche Bildung"@de .
 
 :school a skos:Concept;
           skos:topConceptOf <https://w3id.org/edu/sectors> ;
           skos:inScheme <https://w3id.org/edu/sectors> ;
-          skos:prefLabel "School"@en .
+          skos:prefLabel "School"@en, "Schule"@de .
 
 :higherEd a skos:Concept;
            skos:topConceptOf <https://w3id.org/edu/sectors> ;
            skos:inScheme <https://w3id.org/edu/sectors> ;
-           skos:prefLabel "Higher Education"@en .
+           skos:prefLabel "Higher Education"@en, "Hochschulbildung"@de .
            
 :tvet a skos:Concept;
           skos:topConceptOf <https://w3id.org/edu/sectors> ;
           skos:inScheme <https://w3id.org/edu/sectors> ;
-          skos:prefLabel "TVET"@en ;
+          skos:prefLabel "TVET"@en, "Berufliche Bildung"@de ;
           skos:altLabel "Technical and Vocational Education and Training" .
 
 :nonFormal a skos:Concept;
           skos:topConceptOf <https://w3id.org/edu/sectors> ;
           skos:inScheme <https://w3id.org/edu/sectors> ;
-          skos:prefLabel "Non-formal & Informal Education"@en .
+          skos:prefLabel "Non-formal & Informal Education"@en, "Non-formale & informelle Bildung"@de .
+
+:general a skos:Concept;
+          skos:topConceptOf <https://w3id.org/edu/sectors> ;
+          skos:inScheme <https://w3id.org/edu/sectors> ;
+          skos:prefLabel "Cross-sector"@en, "Sektorenübergreifend"@de .
