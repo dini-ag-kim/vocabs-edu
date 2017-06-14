@@ -8,33 +8,39 @@
         dct:description "This is a vocabulary for educational sectors as used in the OER World Map (https://oerworldmap.org)."@en ;
         dct:publisher <http://lobid.org/organisation/DE-605> ;
         dct:issued "2017-03-29" ;
+        dct:modified "2017-06-07" ;
         vann:preferredNamespaceUri "https://w3id.org/edu/sectors#" ;
         vann:preferredNamespacePrefix "esv" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
         skos:hasTopConcept :earlyChildhood, :school, :higherEd, :tvet, :nonFormal .
 
 :earlyChildhood a skos:Concept;
-           skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
+           skos:topConceptOf <https://w3id.org/edu/sectors> ;
            skos:inScheme <https://w3id.org/edu/sectors> ;
-           skos:prefLabel "Early Childhood Education"@en .
+           skos:prefLabel "Early Childhood Education"@en, "Frühkindliche Bildung"@de .
 
 :school a skos:Concept;
-          skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
+          skos:topConceptOf <https://w3id.org/edu/sectors> ;
           skos:inScheme <https://w3id.org/edu/sectors> ;
-          skos:prefLabel "School"@en .
+          skos:prefLabel "School"@en, "Schule"@de .
 
 :higherEd a skos:Concept;
-           skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
+           skos:topConceptOf <https://w3id.org/edu/sectors> ;
            skos:inScheme <https://w3id.org/edu/sectors> ;
-           skos:prefLabel "Higher Education"@en .
+           skos:prefLabel "Higher Education"@en, "Hochschulbildung"@de .
            
 :tvet a skos:Concept;
-          skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
+          skos:topConceptOf <https://w3id.org/edu/sectors> ;
           skos:inScheme <https://w3id.org/edu/sectors> ;
-          skos:prefLabel "TVET"@en ;
+          skos:prefLabel "TVET"@en, "Berufliche Bildung"@de ;
           skos:altLabel "Technical and Vocational Education and Training" .
 
 :nonFormal a skos:Concept;
-          skos:topConceptOf <https://oerworldmap.org/vocabs/esv> ;
+          skos:topConceptOf <https://w3id.org/edu/sectors> ;
           skos:inScheme <https://w3id.org/edu/sectors> ;
-          skos:prefLabel "Non-formal & Informal Education"@en .
+          skos:prefLabel "Non-formal & Informal Education"@en, "Non-formale & informelle Bildung"@de .
+
+:general a skos:Concept;
+          skos:topConceptOf <https://w3id.org/edu/sectors> ;
+          skos:inScheme <https://w3id.org/edu/sectors> ;
+          skos:prefLabel "Cross-sector"@en, "Sektorenübergreifend"@de .
