@@ -12,7 +12,7 @@
         vann:preferredNamespaceUri "https://w3id.org/edu/sectors#" ;
         vann:preferredNamespacePrefix "esv" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        skos:hasTopConcept :earlyChildhood, :school, :higherEd, :tvet, :nonFormal .
+        skos:hasTopConcept :earlyChildhood, :school, :higherEd, :tvet, :nonFormal, :general .
 
 :earlyChildhood a skos:Concept;
            skos:topConceptOf <https://w3id.org/edu/sectors> ;
