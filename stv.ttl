@@ -1,0 +1,50 @@
+@prefix : <https://w3id.org/class/stv/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+
+: a skos:ConceptScheme;
+        dct:title "OER Service type vocabulary"@en ;
+        dct:description "This vocabulary was created and curated within the OER Worldmap project to classify services within the Open Educational Resources (OER) space. Under the term 'OER service' fall online offers by organizations or individuals that somehow help people in finding, assessing, creating or publishing OER, e.g. repositories, referatories, registries etc."@en ;
+        dct:publisher <http://lobid.org/organisation/DE-605> ;
+        vann:preferredNamespaceUri "https://w3id.org/class/stv/" ;
+        vann:preferredNamespacePrefix "stv" ;
+        skos:hasTopConcept :repository, :textbooks, :moocs, :referatory, :tutorial .
+
+:collections a skos:Collection ;
+           skos:prefLabel "Service types that are collections of Open Educational Resources."@en ;
+           skos:member :repository ;
+           skos:member :textbooks ;
+           skos:member :moocs .
+
+:repository a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "OER Repository"@en ;
+           skos:scopeNote "A service that offers uploading and downloading individual open educational resources (OER) in any medium (textual, audio, visual) and assigning some metadata to enable discovery."@en.
+
+:textbooks a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "Textbook collection"@en ;
+           skos:scopeNote "An online service that provides access to a number of educational textbooks."@en .
+
+:moocs a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "MOOC platform"@en ;
+           skos:scopeNote "An online service that allows access to a number of different Massive Open Online Courses (MOOCs)."@en.
+
+:referatory a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "Referatory"@en ;
+           skos:scopeNote "A service that helps in finding open educational resources (OER) by offering a search interface and ways to filter the results, e.g. by level of education, by language or by subject."@en . 
+
+:tutorial a skos:Concept ;
+           skos:topConceptOf : ;
+           skos:inScheme : ;
+           skos:prefLabel "Tutorial" ;
+           skos:scopeNote "A screen recording (screencast), a written document (either online or downloadable), interactive tutorial, or an audio file, where a person gives step by step instructions on activities related to OER, e.g. how to find, assess, create, license or publish OER."@en .
