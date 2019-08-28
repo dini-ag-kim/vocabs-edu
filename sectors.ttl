@@ -12,7 +12,7 @@
         vann:preferredNamespaceUri "https://w3id.org/class/sectors#" ;
         vann:preferredNamespacePrefix "esv" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        skos:hasTopConcept :earlyChildhood, :school, :higherEd, :tvet, :nonFormal, :general .
+        skos:hasTopConcept :earlyChildhood, :school, :higherEd, :vocational, :further, :general .
 
 :earlyChildhood a skos:Concept;
            skos:topConceptOf <https://w3id.org/class/sectors> ;
@@ -24,16 +24,15 @@
 
 :higherEd a skos:Concept;
            skos:topConceptOf <https://w3id.org/class/sectors> ;
-           skos:prefLabel "Higher Education"@en, "Hochschulbildung"@de .
+           skos:prefLabel "Higher Education"@en, "Hochschule"@de .
 
-:tvet a skos:Concept;
+:vocational a skos:Concept;
           skos:topConceptOf <https://w3id.org/class/sectors> ;
-          skos:prefLabel "TVET"@en, "Berufliche Bildung"@de ;
-          skos:altLabel "Technical and Vocational Education and Training" .
+          skos:prefLabel "Vocational Education"@en, "Berufliche Bildung"@de .
 
-:nonFormal a skos:Concept;
+:further a skos:Concept;
           skos:topConceptOf <https://w3id.org/class/sectors> ;
-          skos:prefLabel "Non-formal & Informal Education"@en, "Non-formale & informelle Bildung"@de .
+          skos:prefLabel "Further Education"@en, "Weiterbildung"@de .
 
 :general a skos:Concept;
           skos:topConceptOf <https://w3id.org/class/sectors> ;
