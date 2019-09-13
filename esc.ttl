@@ -138,7 +138,8 @@
     skos:notation "001",
         "0011" ;
     skos:prefLabel "Basic programmes and qualifications"@en ;
-    skos:scopeNote "Generic programmes which cover a range of subjects, such as languages and literature, social and natural sciences, mathematics, arts and/or physical education, should be classified in 0011 ‘Basic programmes and qualifications’. This should be the case even if there is some concentration on a certain category of subject matter, such as humanities, social sciences, natural sciences, etc., which can occur."@en .
+    skos:scopeNote "Generic programmes which cover a range of subjects, such as languages and 
+, social and natural sciences, mathematics, arts and/or physical education, should be classified in 0011 ‘Basic programmes and qualifications’. This should be the case even if there is some concentration on a certain category of subject matter, such as humanities, social sciences, natural sciences, etc., which can occur."@en .
 
 :n002 a skos:Concept ;
     skos:broader :n00 ;
@@ -299,6 +300,12 @@
     skos:inScheme :scheme ;
     skos:notation "0231-pt" ;
     skos:prefLabel "Language acquisition – Portuguese"@en .
+
+:n0232-de a skos:Concept ;
+    skos:broader :n0232 ;
+    skos:inScheme :scheme ;
+    skos:notation "0232-de" ;
+    skos:prefLabel "German literature and linguistics"@en .
 
 :n0232-en a skos:Concept ;
     skos:broader :n0232 ;
