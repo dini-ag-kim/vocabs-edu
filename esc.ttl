@@ -4,6 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -15,6 +16,9 @@
     dct:source <https://raw.githubusercontent.com/hbz/vocabs-edu/master/isced-2013.ttl> ;
     dct:title "Educational Subjects Classification"@en ;
     dct:alternative "ESC";
+    schema:isBasedOn <http://www.wikidata.org/entity/Q1390351> ;
+    dct:issued "2015-09-25"^^xsd:date ;
+    dct:modified "2019-11-18"^^xsd:date ;
     vann:preferredNamespacePrefix "esc" ;
     vann:preferredNamespaceUri "https://w3id.org/class/esc/" ;
     skos:hasTopConcept :n00,
