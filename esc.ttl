@@ -13,8 +13,7 @@
     dct:modified "2020-10-30"^^xsd:date ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     dct:source <https://raw.githubusercontent.com/hbz/vocabs-edu/master/isced-2013.ttl> ;
-    dct:title "Klassifikation von Bildungsfächern",
-        "Educational Subjects Classification"@en ;
+    dct:title "Educational Subjects Classification"@en, "Klassifikation von Bildungsfächern"@de ;
     vann:preferredNamespacePrefix "esc" ;
     vann:preferredNamespaceUri "https://w3id.org/class/esc/" ;
     schema:isBasedOn <http://www.wikidata.org/entity/Q1390351> ;
