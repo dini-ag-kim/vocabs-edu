@@ -240,7 +240,7 @@
     skos:broader :n031 ;
     skos:inScheme :scheme ;
     skos:notation "0313" ;
-    skos:prefLabel "Politikwissenschaft"@de,
+    skos:prefLabel "Psychologie"@de,
         "Psychology"@en .
 
 :n0314 a skos:Concept ;
