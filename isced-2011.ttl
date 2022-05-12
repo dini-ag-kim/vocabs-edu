@@ -82,7 +82,7 @@
            skos:altLabel "ISCED 2011, Level 6"@en;
            skos:notation "ISCED-2011:6";
            skos:broadMatch eduContext:hochschule ;
-           skos:broadMatch eduLevel:level_678 ;
+           skos:broadMatch eduLevel:level_A ;
            skos:exactMatch eduLevel:level_6 .
 
 :level7 a skos:Concept;
@@ -93,7 +93,7 @@
           skos:altLabel "ISCED 2011, Level 7"@en;
           skos:notation "ISCED-2011:7";
           skos:broadMatch eduContext:hochschule ;
-          skos:broadMatch eduLevel:level_678 ;
+          skos:broadMatch eduLevel:level_A ;
           skos:exactMatch eduLevel:level_7 .
 
 :level8 a skos:Concept;
@@ -104,7 +104,7 @@
           skos:altLabel "ISCED 2011, Level 8"@en;
           skos:notation "ISCED-2011:8";
           skos:broadMatch eduContext:hochschule ;
-          skos:broadMatch eduLevel:level_678 ;
+          skos:broadMatch eduLevel:level_A ;
           skos:exactMatch eduLevel:level_8 .
 
 :level9 a skos:Concept;
