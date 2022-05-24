@@ -18,7 +18,7 @@
            skos:topConceptOf :scheme;
            skos:inScheme :scheme;
            skos:prefLabel "Pre-Primary Education"@en;
-           skos:prefLabel "Frühkindliche Bildung"@de ;
+           skos:prefLabel "Elementarbereich"@de ;
            skos:altLabel "ISCED 1997, Level 0"@en;
            skos:notation "ISCED-1997:0".
 
@@ -26,7 +26,7 @@
            skos:topConceptOf :scheme;
            skos:inScheme :scheme;
            skos:prefLabel "Primary education or first stage of basic education"@en;
-           skos:prefLabel "Grundschule"@de ;
+           skos:prefLabel "Primarbereich"@de ;
            skos:altLabel "ISCED 1997, Level 1"@en;
            skos:notation "ISCED-1997:1".
 
@@ -50,7 +50,7 @@
            skos:topConceptOf :scheme;
            skos:inScheme :scheme;
            skos:prefLabel "Post-secondary non-tertiary education"@en;
-           skos:prefLabel "Bildung im Anschluß an die Schule außerhalb der Hochschule"@de ;
+           skos:prefLabel "Post-sekundarer, nicht-tertiärer Bereich"@de ;
            skos:altLabel "ISCED 1997, Level 4"@en;
            skos:notation "ISCED-1997:4".
 
@@ -58,7 +58,7 @@
            skos:topConceptOf :scheme;
            skos:inScheme :scheme;
            skos:prefLabel "First stage of tertiary education"@en;
-           skos:prefLabel "Tertiärer Bereich bis Bachelor"@de ;
+           skos:prefLabel "Tertiärbereich"@de ;
            skos:altLabel "ISCED 1997, Level 5"@en;
            skos:notation "ISCED-1997:5".
 
@@ -66,6 +66,6 @@
            skos:topConceptOf :scheme;
            skos:inScheme :scheme;
            skos:prefLabel "Second stage of tertiary education"@en;
-           skos:prefLabel "Tertiärer Bereich bis Master"@de ;
+           skos:prefLabel "Weiterführende Forschungsprogramme"@de ;
            skos:altLabel "ISCED 1997, Level 6"@en;
            skos:notation "ISCED-1997:6".
