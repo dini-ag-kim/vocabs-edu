@@ -4,6 +4,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
 @prefix eduContext: <http://w3id.org/openeduhub/vocabs/educationalContext/> .
+@prefix isced97: <https://w3id.org/isced/1997/> .
 
 :scheme a skos:ConceptScheme;
         dct:title "ISCED 2011 levels of education"@en ;
@@ -23,7 +24,8 @@
            skos:altLabel "ISCED 2011, Level 0"@en;
            skos:notation "ISCED-2011:0";
            skos:exactMatch eduLevel:level_0 ;
-           skos:exactMatch eduContext:elementarbereich .
+           skos:exactMatch eduContext:elementarbereich ;
+           skos:narrowMatch isced97:level0 .
 
 :level1 a skos:Concept;
            skos:topConceptOf :scheme;
@@ -33,7 +35,8 @@
            skos:altLabel "ISCED 2011, Level 1"@en;
            skos:notation "ISCED-2011:1";
            skos:exactMatch eduContext:grundschule ;
-           skos:exactMatch eduLevel:level_1 .
+           skos:exactMatch eduLevel:level_1 ;
+           skos:exactMatch isced97:level1 .
 
 :level2 a skos:Concept;
            skos:topConceptOf :scheme;
@@ -43,7 +46,8 @@
            skos:altLabel "ISCED 2011, Category 2"@en;
            skos:notation "ISCED-2011:2";
            skos:exactMatch eduContext:sekundarstufe_1 ;
-           skos:exactMatch eduLevel:level_2 .
+           skos:exactMatch eduLevel:level_2 ;
+           skos:exactMatch isced97:level2 .
 
 :level3 a skos:Concept;
            skos:topConceptOf :scheme;
@@ -53,7 +57,8 @@
            skos:altLabel "ISCED 2011, Level 3"@en;
            skos:notation "ISCED-2011:3";
            skos:exactMatch eduContext:sekundarstufe_2 ;
-           skos:exactMatch eduLevel:level_3 .
+           skos:exactMatch eduLevel:level_3 ;
+           skos:exactMatch isced97:level3 .
 
 :level4 a skos:Concept;
            skos:topConceptOf :scheme;
@@ -63,7 +68,8 @@
            skos:altLabel "ISCED 2011, Level 4"@en;
            skos:notation "ISCED-2011:4";
            skos:closeMatch eduContext:berufliche_bildung ;
-           skos:exactMatch eduLevel:level_4 .
+           skos:exactMatch eduLevel:level_4 ;
+           skos:exactMatch isced97:level4 .
 
 :level5 a skos:Concept;
            skos:topConceptOf :scheme;
@@ -72,7 +78,8 @@
            skos:prefLabel "Kurzes tertiäres Bildungsprogramm"@de ;
            skos:altLabel "ISCED 2011, Level 5"@en;
            skos:notation "ISCED-2011:5";
-           skos:exactMatch eduLevel:level_5 .
+           skos:exactMatch eduLevel:level_5 ;
+           skos:broadMatch isced97:level5 .
 
 :level6 a skos:Concept;
            skos:topConceptOf :scheme;
@@ -83,7 +90,8 @@
            skos:notation "ISCED-2011:6";
            skos:broadMatch eduContext:hochschule ;
            skos:broadMatch eduLevel:level_A ;
-           skos:exactMatch eduLevel:level_6 .
+           skos:exactMatch eduLevel:level_6 ;
+           skos:broadMatch isced97:level5 .
 
 :level7 a skos:Concept;
           skos:topConceptOf :scheme;
@@ -94,7 +102,8 @@
           skos:notation "ISCED-2011:7";
           skos:broadMatch eduContext:hochschule ;
           skos:broadMatch eduLevel:level_A ;
-          skos:exactMatch eduLevel:level_7 .
+          skos:exactMatch eduLevel:level_7 ;
+          skos:broadMatch isced97:level5 .
 
 :level8 a skos:Concept;
           skos:topConceptOf :scheme;
@@ -105,7 +114,8 @@
           skos:notation "ISCED-2011:8";
           skos:broadMatch eduContext:hochschule ;
           skos:broadMatch eduLevel:level_A ;
-          skos:exactMatch eduLevel:level_8 .
+          skos:exactMatch eduLevel:level_8 ;
+          skos:exactMatch isced97:level6 .
 
 :level9 a skos:Concept;
           skos:topConceptOf :scheme;
