@@ -1,10 +1,10 @@
-@prefix : <https://w3id.org/isced/2011/> .
+@prefix : <https://w3id.org/kim/isced-2011/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
 @prefix eduContext: <http://w3id.org/openeduhub/vocabs/educationalContext/> .
-@prefix isced97: <https://w3id.org/isced/1997/> .
+@prefix isced97: <https://w3id.org/kim/isced-1997/> .
 
 :scheme a skos:ConceptScheme;
         dct:title "ISCED 2011 levels of education"@en ;
