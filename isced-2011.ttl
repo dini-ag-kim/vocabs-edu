@@ -1,0 +1,126 @@
+@prefix : <https://w3id.org/kim/isced-2011/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
+@prefix eduContext: <http://w3id.org/openeduhub/vocabs/educationalContext/> .
+@prefix isced97: <https://w3id.org/kim/isced-1997/> .
+
+:scheme a skos:ConceptScheme;
+        dct:title "ISCED 2011 levels of education"@en ;
+        dct:description "This is a SKOS representation of the ISCED 2011 levels of education."@en ;
+        dct:created "2022-05-11"^^xsd:date ;
+        dct:modified "2022-05-11"^^xsd:date ;
+        dct:issued "2022-05-11"^^xsd:date ;
+        dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dct:source <http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf> ;
+        skos:hasTopConcept :level0, :level1, :level2, :level3, :level4, :level5, :level6, :level7, :level8, :level9 .
+
+:level0 a skos:Concept;
+           skos:topConceptOf :scheme;
+           skos:inScheme :scheme;
+           skos:prefLabel "Early childhood education"@en;
+           skos:prefLabel "Elementarbereich"@de ;
+           skos:altLabel "ISCED 2011, Level 0"@en;
+           skos:notation "ISCED-2011:0";
+           skos:exactMatch eduLevel:level_0 ;
+           skos:exactMatch eduContext:elementarbereich ;
+           skos:narrowMatch isced97:level0 .
+
+:level1 a skos:Concept;
+           skos:topConceptOf :scheme;
+           skos:inScheme :scheme;
+           skos:prefLabel "Primary education"@en;
+           skos:prefLabel "Primarbereich"@de ;
+           skos:altLabel "ISCED 2011, Level 1"@en;
+           skos:notation "ISCED-2011:1";
+           skos:exactMatch eduContext:grundschule ;
+           skos:exactMatch eduLevel:level_1 ;
+           skos:exactMatch isced97:level1 .
+
+:level2 a skos:Concept;
+           skos:topConceptOf :scheme;
+           skos:inScheme :scheme;
+           skos:prefLabel "Lower secondary education"@en;
+           skos:prefLabel "Sekundarbereich I"@de ;
+           skos:altLabel "ISCED 2011, Category 2"@en;
+           skos:notation "ISCED-2011:2";
+           skos:exactMatch eduContext:sekundarstufe_1 ;
+           skos:exactMatch eduLevel:level_2 ;
+           skos:exactMatch isced97:level2 .
+
+:level3 a skos:Concept;
+           skos:topConceptOf :scheme;
+           skos:inScheme :scheme;
+           skos:prefLabel "Upper secondary education"@en;
+           skos:prefLabel "Sekundarbereich II"@de ;
+           skos:altLabel "ISCED 2011, Level 3"@en;
+           skos:notation "ISCED-2011:3";
+           skos:exactMatch eduContext:sekundarstufe_2 ;
+           skos:exactMatch eduLevel:level_3 ;
+           skos:exactMatch isced97:level3 .
+
+:level4 a skos:Concept;
+           skos:topConceptOf :scheme;
+           skos:inScheme :scheme;
+           skos:prefLabel "Post-secondary non-tertiary education"@en;
+           skos:prefLabel "Postsekundarer nicht-tertiärer Bereich"@de ;
+           skos:altLabel "ISCED 2011, Level 4"@en;
+           skos:notation "ISCED-2011:4";
+           skos:closeMatch eduContext:berufliche_bildung ;
+           skos:exactMatch eduLevel:level_4 ;
+           skos:exactMatch isced97:level4 .
+
+:level5 a skos:Concept;
+           skos:topConceptOf :scheme;
+           skos:inScheme :scheme;
+           skos:prefLabel "Short-cycle tertiary education"@en;
+           skos:prefLabel "Kurzes tertiäres Bildungsprogramm"@de ;
+           skos:altLabel "ISCED 2011, Level 5"@en;
+           skos:notation "ISCED-2011:5";
+           skos:exactMatch eduLevel:level_5 ;
+           skos:broadMatch isced97:level5 .
+
+:level6 a skos:Concept;
+           skos:topConceptOf :scheme;
+           skos:inScheme :scheme;
+           skos:prefLabel "Bachelor’s or equivalent level"@en;
+           skos:prefLabel "Bachelor- bzw. gleichwertiges Bildungsprogramm"@de ;
+           skos:altLabel "ISCED 2011, Level 6"@en;
+           skos:notation "ISCED-2011:6";
+           skos:broadMatch eduContext:hochschule ;
+           skos:broadMatch eduLevel:level_A ;
+           skos:exactMatch eduLevel:level_6 ;
+           skos:broadMatch isced97:level5 .
+
+:level7 a skos:Concept;
+          skos:topConceptOf :scheme;
+          skos:inScheme :scheme;
+          skos:prefLabel "Master’s or equivalent level"@en;
+          skos:prefLabel "Master- bzw. gleichwertiges Bildungsprogramm"@de ;
+          skos:altLabel "ISCED 2011, Level 7"@en;
+          skos:notation "ISCED-2011:7";
+          skos:broadMatch eduContext:hochschule ;
+          skos:broadMatch eduLevel:level_A ;
+          skos:exactMatch eduLevel:level_7 ;
+          skos:broadMatch isced97:level5 .
+
+:level8 a skos:Concept;
+          skos:topConceptOf :scheme;
+          skos:inScheme :scheme;
+          skos:prefLabel "Doctoral or equivalent level"@en;
+          skos:prefLabel "Promotion"@de ;
+          skos:altLabel "ISCED 2011, Level 8"@en;
+          skos:notation "ISCED-2011:8";
+          skos:broadMatch eduContext:hochschule ;
+          skos:broadMatch eduLevel:level_A ;
+          skos:exactMatch eduLevel:level_8 ;
+          skos:exactMatch isced97:level6 .
+
+:level9 a skos:Concept;
+          skos:topConceptOf :scheme;
+          skos:inScheme :scheme;
+          skos:prefLabel "Not elsewhere classified"@en;
+          skos:prefLabel "Keinerlei andere Klassifizierung"@de ;
+          skos:altLabel "ISCED 2011, Level 9"@en;
+          skos:notation "ISCED-2011:9".
