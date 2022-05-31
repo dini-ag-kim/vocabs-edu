@@ -5,6 +5,7 @@
 @prefix eduLevel: <http://w3id.org/kim/educationalLevel/> .
 @prefix eduContext: <http://w3id.org/openeduhub/vocabs/educationalContext/> .
 @prefix isced97: <https://w3id.org/kim/isced-1997/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :scheme a skos:ConceptScheme;
         dct:title "ISCED 2011 levels of education"@en ;
